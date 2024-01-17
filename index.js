@@ -17,8 +17,8 @@ app.use(cors())
 
 
 // Import routes
-const categoriesRoutes = require('./routes/categories.routes');
-const productsRoutes = require('./routes/products.routes');
+const categoriesRoutes = require('./Routes/CategoryRoute');
+const productsRoutes = require('./Routes/ProductRoute');
 
 app.use('/categories', categoriesRoutes);
 app.use('/products', productsRoutes);
